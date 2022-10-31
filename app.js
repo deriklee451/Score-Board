@@ -52,3 +52,11 @@ function drawA() {
     points.innerText = scoreb
 
 }
+
+function clearScore() {
+
+    score = '0'
+    scoreb = '0'
+    draw()
+    drawA()
+}
